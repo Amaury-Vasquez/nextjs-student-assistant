@@ -1,0 +1,87 @@
+.content {
+  width: 100vw;
+  box-sizing: border-box;
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  /* border: 1px solid blue; */
+  /* position: relative; */
+}
+
+.sider {
+  box-sizing: border-box;
+  width: 10vw;
+  z-index: 1;
+  position: relative;
+  background: var(--carbon);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.optionsList {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.option {
+  font-size: 1rem;
+  width: 100%;
+  height: fit-content;
+  padding: 20px 0;
+  padding-left: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+}
+
+.option > svg {
+  margin-right: 5px;
+  font-size: 1.2em;
+}
+
+.option:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+.option:hover,
+.option:focus {
+  opacity: 0.8;
+}
+
+.collapsed {
+  position: absolute;
+}
+
+.logout {
+  width: 100%;
+  border: none;
+  background: var(--red);
+  font-weight: 600;
+  outline: none;
+}
+
+.logout:hover {
+  cursor: pointer;
+  background: var(--red);
+}
+
+.logout > svg {
+  margin-right: 5px;
+}
+
+.page {
+  width: 90vw;
+  padding: 10px 30px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.fallback {
+  justify-content: center;
+  align-items: center;
+}
