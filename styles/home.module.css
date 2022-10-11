@@ -1,0 +1,87 @@
+.title {
+  font-size: 1.2rem;
+  border-bottom: 1px solid var(--gray);
+  padding-bottom: 10px;
+  color: var(--carbon);
+}
+
+.schedule {
+  width: 100%;
+  height: auto;
+  font-size: 1rem;
+}
+
+.topWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--carbon);
+}
+
+.caption {
+  padding-left: 10px;
+  display: flex;
+  font-size: 1em;
+}
+
+.menu {
+  width: auto;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu > * {
+  margin-right: 10px;
+}
+
+.menuOption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  outline: none;
+  border: none;
+  padding: 15px;
+}
+
+.menuOption > svg {
+  margin-left: 5px;
+  font-size: 1.3em;
+}
+
+.menuOption:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.scheduleTable {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 3px;
+  border: 1px solid #dfdfdf;
+}
+
+.oddFill > td {
+  background: #efefef;
+}
+
+.evenFill > td {
+  background: #dfdfdf;
+}
+
+.tableCell {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.tableDay {
+  background: var(--carbon);
+  color: white;
+  font-weight: 600;
+}
+
+.tableSubject {
+  font-weight: 600;
+}
